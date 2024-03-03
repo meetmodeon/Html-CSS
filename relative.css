@@ -1,0 +1,56 @@
+/* #box1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
+
+
+}*/
+/*em:-its means multiplication of parent*/
+/* Position: The position CSS property sets how an element is positioned in a document.
+position:static/relative/absolute/fixec
+*/ 
+/* #box2{
+    height: 50px;
+     width: 50px; 
+    width: 30%;
+    background-color: yellow;
+    font-size: 2em;
+} */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid hsl(0, 0%, 0%);
+    display: inline-block;
+}
+#box1{
+    /* background-color: red;
+    position: static; */
+    /*no change in any position*/
+    border-radius: 50%;
+    background-image: url("flower.jpg");
+    background-size: cover;
+
+}
+#box2{
+    background-color: green;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+#box3{
+    /* position: absolute; */
+    position: sticky;
+    top: 0px;
+    left: 10px;
+}
+#box4{
+    background-color: pink;
+    position: fixed;
+    /* right: 10px;
+    bottom: 0px;
+    width: 100vw ; */
+    top:0px;
+    /* width: 100vw; */
+}
