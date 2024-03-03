@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: rgb(159, 159, 13);
+}
+#logo{
+    color: #7b7b0e;
+}
+a{
+    margin-right: 200px;
+}
+input{
+    color: black;
+}
