@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #faf5f5;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    background-color: rgb(15, 252, 252);
+    
+}
+li{
+    list-style-type: none;
+    background-color: red;
+    
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    align-self: self-start;
+}
