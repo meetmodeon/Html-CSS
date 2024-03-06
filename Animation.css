@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(247, 245, 243);
+    /* position:absolute;
+    top: 100px;
+    left: 100px; */
+    
+    /* Animation
+    ->To animate css elements
+
+
+    ->animation-name
+    ->animation-duration
+    ->animation-timing-function
+    ->animation-delay
+    ALL PROPERTY USE JUST LIKE TRANSITION PROPERTY
+
+    ->animation-iteration-count
+    ->animation-direction
+
+
+    @keyframe myName{
+        from{font-size:200px;}
+        to{font-size:40px;}
+
+    }
+        
+    
+    */
+    /* animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse; */
+
+    /* Animation Shorthand 
+    animation:myName 2s linear 3s infinite normal
+    */
+    
+
+    /* % in Animation
+    
+    @keyframe myName{
+        0%{font-size:20px;}
+        50%{font-size:30px;}
+        100%{font-size:40px;}
+    
+    
+    */
+}
+.child{
+    height: 2px;
+    width: 100%;
+    border: 2px solid black;
+    animation: colorAnimate 10s ease-in 0s normal;
+}
+@keyframes colorAnimate {
+    /* from{
+        background-color: blanchedalmond;
+    }
+    to{
+        background-color: brown;
+    } */
+    0%{
+        transform:translateX(1%);
+        /* left:0px; */
+        background-color: yellow;
+    }
+    50%{
+        transform:translateX(75%);
+        background-color: blue;
+    }
+
+    100%{
+        transform:translateX(100%);
+        /* left:200px; */
+        background-color: red;
+    }
+    
+}
